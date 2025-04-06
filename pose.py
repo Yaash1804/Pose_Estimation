@@ -5,8 +5,6 @@ import math
 import time
 import matplotlib.pyplot as plt
 
-import matplotlib.pyplot as plt
-
 def visualize_mass_distribution(landmarks):
     """Computes the mass distribution in 3D without visualization."""
     mass_distribution = {}  # Dictionary to store mass distribution
