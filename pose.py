@@ -124,6 +124,8 @@ def pose_detection(elbow_angles,knee_angles,waise_angles,shoulder_angles):
         "waist_left": (139, 200),
         "waist_right": (143, 204),
     }
+
+    
 }
 
     # Create a detected_angles dictionary
@@ -393,7 +395,7 @@ def calculateAngle(a,b,c):
 
     return np.degrees(angle)
 
-video_path = "warrior_pose.mp4"
+video_path = "childposeSide.mp4"
 cap = cv2.VideoCapture(video_path)
 
 if not cap.isOpened():
