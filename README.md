@@ -1,4 +1,5 @@
 Pose Detection and Analysis System
+
 This repository contains a Python-based system for detecting and analyzing human poses in video files using the MediaPipe library. The system calculates joint angles, classifies poses (e.g., yoga poses like Warrior Pose or Bhujangasana), computes the center of mass (CoM), evaluates stability, and tracks movement speeds. The codebase is modular, with separate files and classes for each functionality, ensuring maintainability and scalability.
 
 Features
