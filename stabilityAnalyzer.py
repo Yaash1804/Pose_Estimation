@@ -8,7 +8,7 @@ class StabilityAnalyzer:
         self.mp_pose = mp.solutions.pose
         self.pose_classes = {
             "standing_poses": {"standing_pose_side", "warrier_pose_side", "tree_pose_side", "standing_toe_front", "upward_salute"},
-            "ground_contact_poses": {"sitting_toe", "triangle", "downward_dog", "child_pose", "left_leg_lunge"}
+            "ground_contact_poses": {"sitting_toe", "triangle", "downward_dog", "child_pose", "left_leg_lunge","cobra_pose"}
         }
         self.mass_calculator = MassDistributionCalculator()
 
