@@ -20,7 +20,7 @@ numpy: For numerical computations.
 
 Installation
 Clone the repository:
-git clone https://github.com/your-username/pose-detection-analysis.git
+git clone https://github.com/Yaash1804/Pose_Estimation
 cd pose-detection-analysis
 
 Install dependencies:
