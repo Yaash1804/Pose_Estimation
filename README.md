@@ -13,6 +13,7 @@ Video Processing: Processes input videos and saves annotated output.
 
 Prerequisites
 Python: Version 3.7 or higher.
+
 Dependencies:
 opencv-python: For video processing and visualization.
 mediapipe: For pose detection.
